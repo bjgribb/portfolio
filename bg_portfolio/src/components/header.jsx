@@ -36,7 +36,6 @@ export default class Header extends Component {
               </div>
             </div>
           </div>
-          {/* <a className='downlad-btn' href='#'>Download CV</a> */}
         </div>
       </header>
     )

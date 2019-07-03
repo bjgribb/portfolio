@@ -13,15 +13,14 @@ export default class Intro extends Component {
                 <h2><b>Brian Gribbon</b></h2>
                 <h4 className='font-yellow'>Junior Developer</h4>
                 <ul className='information margin-tb-30'>
-                  <li>Something</li>
-                  <li>Something</li>
-                  <li>Something</li>
+                  <li>I like to build things!</li>
+                  <li>Lover of all things METAL 🤘</li>
+                  <li>Car Enthusiast</li>
                 </ul>
                 <ul className='social-icons'>
-                  <li><a href='#'><i className='ion-social-pinterest' /></a></li>
-                  <li><a href='#'><i className='ion-social-linkedin' /></a></li>
+                  <li><a href='https://github.com/bjgribb' target='_blank'><i className='ion-social-github' /></a></li>
+                  <li><a href='https://www.linkedin.com/in/brian-gribbon-64500863/' target='_blank'><i className='ion-social-linkedin' /></a></li>
                   <li><a href='#'><i className='ion-social-instagram' /></a></li>
-                  <li><a href='#'><i className='ion-social-facebook' /></a></li>
                   <li><a href='#'><i className='ion-social-twitter' /></a></li>
                 </ul>
               </div>
