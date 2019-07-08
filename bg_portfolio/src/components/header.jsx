@@ -29,11 +29,13 @@ export default class Header extends Component {
               </div>
               <div className='col-sm-6 col-md-6 col-lg-4'>
                 <div className='info'>
-                  <i className='icon ion-ios-chatboxes-outline' />
-                  <div className='right-area'>
-                    <h5>Email Me:</h5>
-                    <h6>bjgribb@gmail.com</h6>
-                  </div>
+                  <a href='mailto:bjgribb@gmail.com'>
+                    <i className='icon ion-ios-chatboxes-outline' />
+                    <div className='right-area'>
+                      <h5>Email Me:</h5>
+                      <h6>bjgribb@gmail.com</h6>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
