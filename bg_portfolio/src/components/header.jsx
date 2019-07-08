@@ -18,11 +18,13 @@ export default class Header extends Component {
               </div>
               <div className='col-sm-6 col-md-6 col-lg-4'>
                 <div className='info'>
-                  <i className='icon ion-ios-telephone-outline' />
-                  <div className='right-area'>
-                    <h5>Call Me:</h5>
-                    <h6>(919) 914-1341</h6>
-                  </div>
+                  <a href='tel:+1-919-914-1341'>
+                    <i className='icon ion-ios-telephone-outline' />
+                    <div className='right-area'>
+                      <h5>Call Me:</h5>
+                      <h6>(919) 914-1341</h6>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div className='col-sm-6 col-md-6 col-lg-4'>
