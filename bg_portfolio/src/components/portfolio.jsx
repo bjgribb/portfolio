@@ -25,17 +25,16 @@ export default class Portfolio extends Component {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6'>
-              <a href='images/portfolio-1-600x400.jpg'>
-                <img src='images/portfolio-1-600x400.jpg' alt /></a>
+              <div className='embed-responsive embed-responsive-4by3'>
+                <iframe class='embed-responsive-item' src='https://giphy.com/embed/KGTKRL1FnTNTjIw5Rn' />
+              </div>
             </div>
             <div className='col mb-3'>
-              <p><strong>Spotify Me</strong> - Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Praesent elementum luctus tellus eu
-                  pellentesque. Pellentesque molestie, lacus eu lacinia
-                  hendrerit, risus ligula sollicitudin sem, vel auctor tellus
-                  enim sit amet dolor. Cras auctor, mi non ornare viverra, velit
-                  odio scelerisque erat, ut dictum urna felis non lectus. Sed
-                  faucibus nisl.</p>
+              <p><strong>Spotify Me</strong> - Worked with Spotify API to allow users to log
+                in through Spotify and view their playlists and associated
+                tracks. Once users are authorized they have access to track
+                meta-data such as danceability, energy and acoustics levels as well as definitions
+                of each category.</p>
             </div>
             <div className='col-md-6'>
               <a href='images/portfolio-7-600x800.jpg'>
