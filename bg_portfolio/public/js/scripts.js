@@ -1,7 +1,8 @@
 
 (function ($) {
   'use strict'
-
+  var ProgressBar = require('react-progressbar.js')
+  var Circle = ProgressBar.Circle
   // LINE PROGRESS BAR
   enableLineProgress()
 
@@ -71,6 +72,8 @@ function panelAccordian () {
 
 function enableRadialProgress () {
   $('.radial-progress').each(function () {
+    var ProgressBar = require('react-progressbar.js')
+
     var $this = $(this)
 
     var progPercent = $this.data('prog-percent')
