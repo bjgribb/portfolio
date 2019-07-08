@@ -25,9 +25,8 @@ export default class Portfolio extends Component {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6'>
-              <div className='embed-responsive embed-responsive-4by3'>
-                <iframe class='embed-responsive-item' src='https://media.giphy.com/media/W1lrBCVjmn19JKIw9B/giphy.mp4' loop='true' />
-              </div>
+              <a href='https://spotify-me-bg.herokuapp.com/login/' target='_blank'>
+                <img src='../images/Spotify-Me Screenshot.png' alt /></a>
             </div>
             <div className='col mb-3'>
               <p><strong>Spotify Me</strong> - Worked with Spotify API to allow users to log
@@ -37,9 +36,8 @@ export default class Portfolio extends Component {
                 of each category.</p>
             </div>
             <div className='col-md-6'>
-              <div className='embed-responsive embed-responsive-16by9'>
-                <iframe className='embed-responsive-item' src='https://media.giphy.com/media/fXt6ZA0gDi3hUYSYRp/giphy.mp4' />
-              </div>
+              <a href='https://tcby-flashcards-bg.herokuapp.com/home/' target='_blank'>
+                <img src='images/Flashcards Screenshot.png' alt /></a>
             </div>
             <div className='col mb-3'>
               <p><strong>TCBY Flashcards</strong> - Lorem ipsum dolor sit amet, consectetur
@@ -51,8 +49,8 @@ export default class Portfolio extends Component {
                   faucibus nisl.</p>
             </div>
             <div className='col-md-6'>
-              <a href='images/portfolio-2-600x400.jpg'>
-                <img src='images/portfolio-2-600x400.jpg' alt /></a>
+              <a href='https://spotify-me-bg.herokuapp.com/login/' target='_blank'>
+                <img src='images/Spotify-Me Screenshot.png' alt /></a>
             </div>
             <div className='col mb-3'>
               <p><strong>WeeCare</strong> - Lorem ipsum dolor sit amet, consectetur

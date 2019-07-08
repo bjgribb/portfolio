@@ -9,7 +9,7 @@ export default class Intro extends Component {
             <div className='col-md-1 col-lg-2' />
             <div className='col-md-10 col-lg-8'>
               <div className='intro'>
-                <div className='profile-img'><img src='../images/BG_headshot_cropped.jpeg' alt /></div>
+                <div className='profile-img'><img src='images/BG_headshot_cropped.jpeg' alt /></div>
                 <h2><b>Brian Gribbon</b></h2>
                 <h4 className='font-yellow'>Junior Developer</h4>
                 <ul className='information margin-tb-30'>
