@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class About extends Component {
   render () {
     return (
-      <section className='about-section section'>
+      <section className='about-section section mb-5'>
         <div className='container'>
           <div className='row'>
             <div className='col-sm-4'>
@@ -13,14 +13,12 @@ export default class About extends Component {
               </div>
             </div>
             <div className='col-sm-8'>
-              <p className='margin-b-20'>Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
-                sit amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nulla maximus pellentes que velit, quis consequat nulla effi citur at.
-                Maecenas sed massa tristique.Duis non volutpat arcu, eu mollis tellus.
-                Sed finibus aliquam neque sit amet sodales. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nulla maximus pellentes que velit, quis consequat nulla
-                effi citur at.Maecenas sed massa tristique.</p>
+              <p className='margin-b-20'>Financial analyst and junior developer with a linguistics
+              background and extensive experience working in highly regulated, confidential
+              environments, looking to leverage my skills, knowledge, and experience in the IT space.
+              Proven ability to work in high-stress situations, managing multiple tasks while meeting
+              strict daily deadlines and able to relay complex ideas and processes in a succinct, developed manner
+              across multiple business groups. A congenial and enthusiastic team player looking to grow and contribute to a team.</p>
             </div>
           </div>
         </div>

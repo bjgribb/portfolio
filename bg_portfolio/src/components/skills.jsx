@@ -9,12 +9,13 @@ export default class Skills extends Component {
   render () {
     return (
 
-      <section className='about-section section'>
+      <section className='skills-section section'>
         <div className='container'>
           <div className='row'>
             <div className='col-sm-4'>
               <div className='heading'>
                 <h3><b>Skills</b></h3>
+                <h6 className='font-lite-black'><b>TECHNICAL</b></h6>
               </div>
             </div>
             <div className='col-sm-8'>
@@ -26,13 +27,13 @@ export default class Skills extends Component {
                         value={85}
                         text={`85%`}
                         styles={buildStyles({
-                          textColor: '#333333',
-                          pathColor: '#887392',
-                          trailColor: '#FFA804'
+                          textColor: '#FFFFFF',
+                          pathColor: '#FFA600',
+                          trailColor: '#777777'
                         })}
                       />
                       <div />
-                      <h6 className='progress-title'>HTML5 &amp; CSS3</h6>
+                      <h6 className='progress-title'>HTML &amp; CSS</h6>
                     </div>
                   </div>
                 </div>
@@ -43,9 +44,9 @@ export default class Skills extends Component {
                         value={80}
                         text={`80%`}
                         styles={buildStyles({
-                          textColor: '#333333',
-                          pathColor: '#887392',
-                          trailColor: '#FFA804'
+                          textColor: '#FFFFFF',
+                          pathColor: '#FFA600',
+                          trailColor: '#777777'
                         })}
                       />
                       <div />
@@ -57,16 +58,16 @@ export default class Skills extends Component {
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
                       <CircularProgressbar
-                        value={80}
-                        text={`80%`}
+                        value={65}
+                        text={`65%`}
                         styles={buildStyles({
-                          textColor: '#333333',
-                          pathColor: '#887392',
-                          trailColor: '#FFA804'
+                          textColor: '#FFFFFF',
+                          pathColor: '#FFA600',
+                          trailColor: '#777777'
                         })}
                       />
                       <div />
-                      <h6 className='progress-title'>Python</h6>
+                      <h6 className='progress-title'>SQL</h6>
                     </div>
                   </div>
                 </div>
@@ -74,16 +75,16 @@ export default class Skills extends Component {
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
                       <CircularProgressbar
-                        value={80}
-                        text={`80%`}
+                        value={55}
+                        text={`55%`}
                         styles={buildStyles({
-                          textColor: '#333333',
-                          pathColor: '#887392',
-                          trailColor: '#FFA804'
+                          textColor: '#FFFFFF',
+                          pathColor: '#FFA600',
+                          trailColor: '#777777'
                         })}
                       />
                       <div />
-                      <h6 className='progress-title'>Python</h6>
+                      <h6 className='progress-title'>JavaScript</h6>
                     </div>
                   </div>
                 </div>
@@ -91,16 +92,16 @@ export default class Skills extends Component {
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
                       <CircularProgressbar
-                        value={80}
-                        text={`80%`}
+                        value={40}
+                        text={`40%`}
                         styles={buildStyles({
-                          textColor: '#333333',
-                          pathColor: '#887392',
-                          trailColor: '#FFA804'
+                          textColor: '#FFFFFF',
+                          pathColor: '#FFA600',
+                          trailColor: '#777777'
                         })}
                       />
                       <div />
-                      <h6 className='progress-title'>Python</h6>
+                      <h6 className='progress-title'>ReactJs</h6>
                     </div>
                   </div>
                 </div>
@@ -108,16 +109,16 @@ export default class Skills extends Component {
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
                       <CircularProgressbar
-                        value={60}
-                        text={`60%`}
+                        value={50}
+                        text={`50%`}
                         styles={buildStyles({
-                          textColor: '#333333',
-                          pathColor: '#887392',
-                          trailColor: '#FFA804'
+                          textColor: '#FFFFFF',
+                          pathColor: '#FFA600',
+                          trailColor: '#777777'
                         })}
                       />
                       <div />
-                      <h6 className='progress-title'>Javascript</h6>
+                      <h6 className='progress-title'>Tableau</h6>
                     </div>
                   </div>
                 </div>
