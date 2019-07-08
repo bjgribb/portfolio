@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
           <div className='row'>
             <div className='col-md-6'>
               <a href='https://spotify-me-bg.herokuapp.com/login/' target='_blank'>
-                <img src='../images/Spotify-Me Screenshot.png' alt /></a>
+                <img src='images/Spotify-Me Screenshot.png' alt /></a>
             </div>
             <div className='col mb-3'>
               <p><strong>Spotify Me</strong> - Worked with Spotify API to allow users to log
