@@ -58,7 +58,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #FFA804; }
+a b.light-color:hover{ text-decoration: none; color: #777777; }
 
 b{ font-weight: 600; }
 
@@ -116,8 +116,6 @@ header .info{ margin-bottom: 10px; }
 header .info .icon{ float: left; font-size: 30px; }
 
 header .info .right-area{ margin-left: 45px; }
-
-header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
 
 
 /* ---------------------------------
