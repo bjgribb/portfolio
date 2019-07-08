@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
           <div className='row'>
             <div className='col-md-6'>
               <div className='embed-responsive embed-responsive-4by3'>
-                <iframe class='embed-responsive-item' src='https://giphy.com/embed/KGTKRL1FnTNTjIw5Rn' />
+                <iframe class='embed-responsive-item' src='https://media.giphy.com/media/W1lrBCVjmn19JKIw9B/giphy.mp4' loop='true' />
               </div>
             </div>
             <div className='col mb-3'>
@@ -37,8 +37,9 @@ export default class Portfolio extends Component {
                 of each category.</p>
             </div>
             <div className='col-md-6'>
-              <a href='images/portfolio-7-600x800.jpg'>
-                <img src='images/portfolio-7-600x800.jpg' alt /></a>
+              <div className='embed-responsive embed-responsive-16by9'>
+                <iframe className='embed-responsive-item' src='https://media.giphy.com/media/fXt6ZA0gDi3hUYSYRp/giphy.mp4' />
+              </div>
             </div>
             <div className='col mb-3'>
               <p><strong>TCBY Flashcards</strong> - Lorem ipsum dolor sit amet, consectetur
