@@ -6128,6 +6128,10 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   background-color: #101112 !important;
 }
 
+.border {
+  border: 1px #28023D solid;
+}
+
 .border-0 {
   border: 0 !important;
 }
