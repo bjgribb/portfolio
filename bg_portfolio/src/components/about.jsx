@@ -21,7 +21,7 @@ export default class About extends Component {
               such as Tableau, Alteryx, and Business Objects.  I was amazed at how powerful these tools were in driving key
               business decisions, and how quickly we could build insightful dashboards and models.  I had been learning
               some programming on my own via all the amazing online resources, but finally decided to pursue my passion for
-              technology full-time and enrolled in a local code school learning Python/Django.  Now I can't stop building things!
+              technology full-time and enrolled in a local code school learning Python/Django.
               There's so much to learn and if there's one thing I want from my career, it's to never stop learning.
               I'm looking forward to working in the tech space, learning from others and building great things!</p>
             </div>

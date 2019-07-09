@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
             </div>
             <div className='col mb-3'>
               <Fade right>
-                <p><strong>Spotify Me</strong> - I love Spotify, in particular their curated playlist and
+                <p><strong>Spotify Me</strong> - I love Spotify, in particular their curated playlists and
                 music discovery options. Spotify assigns meta-data to each track covering values like
                 danceability and energy levels. Users can login in via their spotify and see their playlists
                 and associated tracks. Upon clicking a track, users can view some of the track meta-data Spotify

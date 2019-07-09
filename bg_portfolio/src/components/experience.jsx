@@ -8,8 +8,8 @@ export default class Experience extends Component {
           <div className='row'>
             <div className='col-sm-4'>
               <div className='heading'>
-                <h3><b>Work Experience</b></h3>
-                <h6 className='font-lite-black'><b>PREVIOUS JOBS</b></h6>
+                <h3><b>Work History</b></h3>
+                <h6 className='font-lite-black'><b>EXPERIENCE</b></h6>
               </div>
             </div>
             <div className='col-sm-8'>
