@@ -9,16 +9,21 @@ export default class About extends Component {
             <div className='col-sm-4'>
               <div className='heading'>
                 <h3><b>About me</b></h3>
-                <h6 className='font-lite-black'><b>PROFESSIONAL PATH</b></h6>
+                <h6 className='font-lite-black'><b>WHO AM I?</b></h6>
               </div>
             </div>
             <div className='col-sm-8'>
-              <p className='margin-b-20'>Financial analyst and junior developer with a linguistics
-              background and extensive experience working in highly regulated, confidential
-              environments, looking to leverage my skills, knowledge, and experience in the IT space.
-              Proven ability to work in high-stress situations, managing multiple tasks while meeting
-              strict daily deadlines and able to relay complex ideas and processes in a succinct, developed manner
-              across multiple business groups. A congenial and enthusiastic team player looking to grow and contribute to a team.</p>
+              <p className='margin-b-20'>Hi there!  I am a finance professional with 6 years of experience, occupying roles from telling
+              to strategic analysis.  I've always been a fanatic for technology and what better time to be alive!
+              If you told 6-year-old me, that we'd have smartwatches and smartphones at our disposal I'd assume I was an
+              international spy!  I love how impactful technology is and how it can be used to solve everyday
+              issues as well as extremely complex problems. In my last finance role, I was exposed to some analytic tools
+              such as Tableau, Alteryx, and Business Objects.  I was amazed at how powerful these tools were in driving key
+              business decisions, and how quickly we could build insightful dashboards and models.  I had been learning
+              some programming on my own via all the amazing online resources, but finally decided to pursue my passion for
+              technology full-time and enrolled in a local code school learning Python/Django.  Now I can't stop building things!
+              There's so much to learn and if there's one thing I want from my career, it's to never stop learning.
+              I'm looking forward to working in the tech space, learning from others and building great things!</p>
             </div>
           </div>
         </div>

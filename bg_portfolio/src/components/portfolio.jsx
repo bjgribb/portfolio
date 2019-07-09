@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade'
+import VisibilitySensor from 'react-visibility-sensor'
 
 export default class Portfolio extends Component {
   render () {
@@ -25,11 +26,11 @@ export default class Portfolio extends Component {
             </div>
             <div className='col mb-3'>
               <Fade right>
-                <p><strong>Spotify Me</strong> - Worked with Spotify API to allow users to log
-                in through Spotify and view their playlists and associated
-                tracks. Once users are authorized they have access to track
-                meta-data such as danceability, energy and acoustics levels as well as definitions
-                of each category.</p>
+                <p><strong>Spotify Me</strong> - I love Spotify, in particular their curated playlist and
+                music discovery options. Spotify assigns meta-data to each track covering values like
+                danceability and energy levels. Users can login in via their spotify and see their playlists
+                and associated tracks. Upon clicking a track, users can view some of the track meta-data Spotify
+                provides as well as definitions of how that data is sourced.</p>
               </Fade>
             </div>
             <div className='col-md-6 mb-3'>
