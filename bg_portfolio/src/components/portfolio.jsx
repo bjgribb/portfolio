@@ -41,8 +41,8 @@ export default class Portfolio extends Component {
             </div>
             <div className='col mb-3'>
               <p><strong>TCBY Flashcards</strong> - Project, comprised of two other developers, tasked with building a flashcard app where users can log
-in and create flashcards and quiz themselves. Some of my responsibilities included building API endpoints for AJAX requests during quiz
-mode and implemented user authentication through AllAuth and Gmail API as well as refactoring code to create smooth user interaction.</p>
+              in and create flashcards and quiz themselves. Some of my responsibilities included building API endpoints for AJAX requests during quiz
+              mode and implemented user authentication through AllAuth and Gmail API as well as refactoring code to create smooth user interaction.</p>
             </div>
             <div className='col-md-6 mb-3'>
               <a href='http://weecaremore.herokuapp.com/accounts/login/' target='_blank'>
@@ -50,10 +50,10 @@ mode and implemented user authentication through AllAuth and Gmail API as well a
             </div>
             <div className='col mb-3'>
               <p><strong>WeeCare</strong> - Worked with local daycare client to automate their record keeping process. Built with two other
-developers to implement technical solutions to meet and exceed client requirements. Responsible for full-stack development, creating
-database models and writing comprehensive views to ensure accurate data representation. Built API endpoints for notification requirements,
-created secure user authentication utilizing AllAuth and Gmail API to allow third-party login and implemented separate guardian login and
-automatic summary email. Responsible for deployment and ensuring no issues between local and Heroku servers.</p>
+              developers to implement technical solutions to meet and exceed client requirements. Responsible for full-stack development, creating
+              database models and writing comprehensive views to ensure accurate data representation. Built API endpoints for notification requirements,
+              created secure user authentication utilizing AllAuth and Gmail API to allow third-party login and implemented separate guardian login and
+              automatic summary email. Responsible for deployment and ensuring no issues between local and Heroku servers.</p>
             </div>
           </div>
         </div>
