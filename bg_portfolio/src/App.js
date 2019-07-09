@@ -7,6 +7,7 @@ import Skills from './components/skills'
 import Portfolio from './components/portfolio'
 import Experience from './components/experience'
 import Footer from './components/footer'
+import Education from './components/education'
 
 class App extends Component {
   render () {
@@ -18,6 +19,7 @@ class App extends Component {
         <Skills />
         <Portfolio />
         <Experience />
+        <Education />
         <Footer />
       </div>
     )

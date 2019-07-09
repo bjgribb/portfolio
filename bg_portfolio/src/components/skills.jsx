@@ -15,7 +15,7 @@ export default class Skills extends Component {
             <div className='col-sm-4'>
               <div className='heading'>
                 <h3><b>Skills</b></h3>
-                <h6 className='font-lite-black'><b>TECHNICAL</b></h6>
+                <h6 className='font-lite-black'><b>PROFICIENCY</b></h6>
               </div>
             </div>
             <div className='col-sm-8'>
