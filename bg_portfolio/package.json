@@ -4,19 +4,22 @@
   "private": true,
   "homepage": "https://bjgribb.github.io/portfolio",
   "dependencies": {
+    "d3-ease": "^1.0.5",
     "gh-pages": "^2.0.1",
     "progressbar.js": "^1.0.1",
     "react": "^16.8.6",
     "react-circular-progressbar": "^2.0.1",
     "react-dom": "^16.8.6",
+    "react-move": "^6.0.0",
     "react-progressbar.js": "^0.2.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-visibility-sensor": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

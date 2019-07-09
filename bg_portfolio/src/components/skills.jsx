@@ -4,6 +4,7 @@ import {
   buildStyles
 } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css'
+import VisibilitySensor from 'react-visibility-sensor'
 
 export default class Skills extends Component {
   render () {
@@ -23,15 +24,23 @@ export default class Skills extends Component {
                 <div className='col-sm-6 col-md-6 col-lg-4'>
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
-                      <CircularProgressbar
-                        value={85}
-                        text={`85%`}
-                        styles={buildStyles({
-                          textColor: '#FFFFFF',
-                          pathColor: '#FFA600',
-                          trailColor: '#777777'
-                        })}
-                      />
+                      <VisibilitySensor>
+                        {({ isVisible }) => {
+                          const percentage = isVisible ? 85 : 0
+                          return (
+                            <CircularProgressbar
+                              value={percentage}
+                              text={`85%`}
+                              styles={buildStyles({
+                                pathTransitionDuration: 1,
+                                textColor: '#FFFFFF',
+                                pathColor: '#FFA600',
+                                trailColor: '#777777'
+                              })}
+                            />
+                          )
+                        }}
+                      </VisibilitySensor>
                       <div />
                       <h6 className='progress-title'>HTML &amp; CSS</h6>
                     </div>
@@ -40,15 +49,23 @@ export default class Skills extends Component {
                 <div className='col-sm-6 col-md-6 col-lg-4'>
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
-                      <CircularProgressbar
-                        value={80}
-                        text={`80%`}
-                        styles={buildStyles({
-                          textColor: '#FFFFFF',
-                          pathColor: '#FFA600',
-                          trailColor: '#777777'
-                        })}
-                      />
+                      <VisibilitySensor>
+                        {({ isVisible }) => {
+                          const percentage = isVisible ? 80 : 0
+                          return (
+                            <CircularProgressbar
+                              value={percentage}
+                              text={`80%`}
+                              styles={buildStyles({
+                                pathTransitionDuration: 1,
+                                textColor: '#FFFFFF',
+                                pathColor: '#FFA600',
+                                trailColor: '#777777'
+                              })}
+                            />
+                          )
+                        }}
+                      </VisibilitySensor>
                       <div />
                       <h6 className='progress-title'>Python</h6>
                     </div>
@@ -57,15 +74,23 @@ export default class Skills extends Component {
                 <div className='col-sm-6 col-md-6 col-lg-4'>
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
-                      <CircularProgressbar
-                        value={65}
-                        text={`65%`}
-                        styles={buildStyles({
-                          textColor: '#FFFFFF',
-                          pathColor: '#FFA600',
-                          trailColor: '#777777'
-                        })}
-                      />
+                      <VisibilitySensor>
+                        {({ isVisible }) => {
+                          const percentage = isVisible ? 65 : 0
+                          return (
+                            <CircularProgressbar
+                              value={percentage}
+                              text={`65%`}
+                              styles={buildStyles({
+                                pathTransitionDuration: 1,
+                                textColor: '#FFFFFF',
+                                pathColor: '#FFA600',
+                                trailColor: '#777777'
+                              })}
+                            />
+                          )
+                        }}
+                      </VisibilitySensor>
                       <div />
                       <h6 className='progress-title'>SQL</h6>
                     </div>
@@ -74,15 +99,23 @@ export default class Skills extends Component {
                 <div className='col-sm-6 col-md-6 col-lg-4'>
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
-                      <CircularProgressbar
-                        value={55}
-                        text={`55%`}
-                        styles={buildStyles({
-                          textColor: '#FFFFFF',
-                          pathColor: '#FFA600',
-                          trailColor: '#777777'
-                        })}
-                      />
+                      <VisibilitySensor>
+                        {({ isVisible }) => {
+                          const percentage = isVisible ? 55 : 0
+                          return (
+                            <CircularProgressbar
+                              value={percentage}
+                              text={`55%`}
+                              styles={buildStyles({
+                                pathTransitionDuration: 1,
+                                textColor: '#FFFFFF',
+                                pathColor: '#FFA600',
+                                trailColor: '#777777'
+                              })}
+                            />
+                          )
+                        }}
+                      </VisibilitySensor>
                       <div />
                       <h6 className='progress-title'>JavaScript</h6>
                     </div>
@@ -91,15 +124,23 @@ export default class Skills extends Component {
                 <div className='col-sm-6 col-md-6 col-lg-4'>
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
-                      <CircularProgressbar
-                        value={40}
-                        text={`40%`}
-                        styles={buildStyles({
-                          textColor: '#FFFFFF',
-                          pathColor: '#FFA600',
-                          trailColor: '#777777'
-                        })}
-                      />
+                      <VisibilitySensor>
+                        {({ isVisible }) => {
+                          const percentage = isVisible ? 40 : 0
+                          return (
+                            <CircularProgressbar
+                              value={percentage}
+                              text={`40%`}
+                              styles={buildStyles({
+                                pathTransitionDuration: 1,
+                                textColor: '#FFFFFF',
+                                pathColor: '#FFA600',
+                                trailColor: '#777777'
+                              })}
+                            />
+                          )
+                        }}
+                      </VisibilitySensor>
                       <div />
                       <h6 className='progress-title'>ReactJs</h6>
                     </div>
@@ -108,15 +149,23 @@ export default class Skills extends Component {
                 <div className='col-sm-6 col-md-6 col-lg-4'>
                   <div className='radial-prog-area margin-b-30'>
                     <div className='radial-progress'>
-                      <CircularProgressbar
-                        value={50}
-                        text={`50%`}
-                        styles={buildStyles({
-                          textColor: '#FFFFFF',
-                          pathColor: '#FFA600',
-                          trailColor: '#777777'
-                        })}
-                      />
+                      <VisibilitySensor>
+                        {({ isVisible }) => {
+                          const percentage = isVisible ? 50 : 0
+                          return (
+                            <CircularProgressbar
+                              value={percentage}
+                              text={`50%`}
+                              styles={buildStyles({
+                                pathTransitionDuration: 1,
+                                textColor: '#FFFFFF',
+                                pathColor: '#FFA600',
+                                trailColor: '#777777'
+                              })}
+                            />
+                          )
+                        }}
+                      </VisibilitySensor>
                       <div />
                       <h6 className='progress-title'>Tableau</h6>
                     </div>
