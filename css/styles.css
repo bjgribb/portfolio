@@ -117,6 +117,8 @@ header .info .icon{ float: left; font-size: 30px; }
 
 header .info .right-area{ margin-left: 45px; }
 
+header a:hover{ text-decoration: none; color: #FFFFFF; }
+
 
 /* ---------------------------------
 4. INTRO SECTION
@@ -172,7 +174,9 @@ header .info .right-area{ margin-left: 45px; }
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
 
+.portfolio-section a:hover { color: #28023D;}
 
+.portfolio-section a:visited { color: inherit }
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
