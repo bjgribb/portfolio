@@ -31,6 +31,11 @@ export default class Portfolio extends Component {
                 danceability and energy levels. Users can login in via their spotify and see their playlists
                 and associated tracks. Upon clicking a track, users can view some of the track meta-data Spotify
                 provides as well as definitions of how that data is sourced.</p>
+                <p>
+                  <a href='https://github.com/bjgribb/musicdata' target='_blank'>
+                    <strong>Source Code</strong>
+                  </a>
+                </p>
               </Fade>
             </div>
             <div className='col-md-6 mb-3'>
@@ -44,6 +49,11 @@ export default class Portfolio extends Component {
                 <p><strong>TCBY Flashcards</strong> - Project, comprised of two other developers, tasked with building a flashcard app where users can log
               in and create flashcards and quiz themselves. Some of my responsibilities included building API endpoints for AJAX requests during quiz
               mode and implemented user authentication through AllAuth and Gmail API as well as refactoring code to create smooth user interaction.</p>
+                <p>
+                  <a href='https://github.com/bjgribb/TCBY_flashcards_bg' target='_blank'>
+                    <strong>Source Code</strong>
+                  </a>
+                </p>
               </Fade>
             </div>
             <div className='col-md-6 mb-3'>
@@ -59,6 +69,11 @@ export default class Portfolio extends Component {
               database models and writing comprehensive views to ensure accurate data representation. Built API endpoints for notification requirements,
               created secure user authentication utilizing AllAuth and Gmail API to allow third-party login and implemented separate guardian login and
               automatic summary email. Responsible for deployment and ensuring no issues between local and Heroku servers.</p>
+                <p>
+                  <a href='https://github.com/in-n-out-daycare/synCARE' target='_blank'>
+                    <strong>Source Code</strong>
+                  </a>
+                </p>
               </Fade>
             </div>
           </div>

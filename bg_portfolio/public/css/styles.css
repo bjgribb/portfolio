@@ -56,9 +56,13 @@ h6{ font-size: .9em; letter-spacing: 1px; }
 a, button{ display: inline-block; text-decoration: none; color: inherit; line-height: 1; 
 	-webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
 
-a:focus, a:active, a:hover,
+/* a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #FFFFFF; }
+a b.light-color:hover{ text-decoration: none; color: #FFFFFF; } */
+
+a:hover, a:active, a:focus {text-decoration: none;}
+
+a:visited { text-decoration: none; color: inherit }
 
 b{ font-weight: 600; }
 
@@ -172,7 +176,7 @@ header .info .right-area{ margin-left: 45px; }
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
 
-
+.portfolio-section a:hover { color: #28023D;}
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
