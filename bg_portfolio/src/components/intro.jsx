@@ -20,8 +20,8 @@ export default class Intro extends Component {
                 <ul className='social-icons'>
                   <li><a href='https://github.com/bjgribb' target='_blank'><i className='ion-social-github' /></a></li>
                   <li><a href='https://www.linkedin.com/in/brian-gribbon-64500863/' target='_blank'><i className='ion-social-linkedin' /></a></li>
-                  <li><a href='#'><i className='ion-social-instagram' /></a></li>
-                  <li><a href='#'><i className='ion-social-twitter' /></a></li>
+                  <li><a href='https://www.codecademy.com/brianGribbon7362161579' target='_blank'><i className='ion-code' /></a></li>
+                  {/* <li><a href='#'><i className='ion-social-twitter' /></a></li> */}
                 </ul>
               </div>
             </div>
