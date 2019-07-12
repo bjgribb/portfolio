@@ -1,9 +1,40 @@
 import React, { Component } from 'react'
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
 
 export default class Header extends Component {
+  constructor (props) {
+    super(props)
+    this.toggle = this.toggle.bind(this)
+    this.state = {
+      dropdownOpen: false
+    }
+  }
+
+  toggle () {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    })
+  }
+
   render () {
     return (
       <header>
+        <a name='home' />
+        <div className='menu header'>
+          <ButtonDropdown direction='left' isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+            <DropdownToggle caret size='sm' color='info'>
+              Menu
+            </DropdownToggle>
+            <DropdownMenu>
+              <DropdownItem disabled><a href='#home'>Home</a></DropdownItem>
+              <DropdownItem disabled><a href='#about'>About Me</a></DropdownItem>
+              <DropdownItem disabled><a href='#skills'>Skills</a></DropdownItem>
+              <DropdownItem disabled><a href='#portfolio'>Portfolio</a></DropdownItem>
+              <DropdownItem disabled><a href='#experience'>Experience</a></DropdownItem>
+              <DropdownItem disabled><a href='#education'>Education</a></DropdownItem>
+            </DropdownMenu>
+          </ButtonDropdown>
+        </div>
         <div className='container'>
           <div className='heading-wrapper'>
             <div className='row'>

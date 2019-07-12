@@ -6,6 +6,7 @@ export default class Portfolio extends Component {
   render () {
     return (
       <section className='portfolio-section section mb-5'>
+        <a name='portfolio' />
         <div className='container'>
           <div className='row'>
             <div className='col-sm-4'>

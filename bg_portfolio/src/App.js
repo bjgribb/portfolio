@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio'
 import Experience from './components/experience'
 import Footer from './components/footer'
 import Education from './components/education'
+// import Menu from './components/menu'
 
 class App extends Component {
   render () {
