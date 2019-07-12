@@ -4,6 +4,7 @@ export default class Experience extends Component {
   render () {
     return (
       <section className='experience-section section'>
+        <a name='experience' />
         <div className='container'>
           <div className='row'>
             <div className='col-sm-4'>

@@ -4,6 +4,7 @@ export default class About extends Component {
   render () {
     return (
       <section className='about-section section mb-5'>
+        <a name='about' />
         <div className='container'>
           <div className='row'>
             <div className='col-sm-4'>

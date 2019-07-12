@@ -19,13 +19,19 @@ export default class Header extends Component {
   render () {
     return (
       <header>
-        <div className='menu container'>
+        <a name='home' />
+        <div className='menu header'>
           <ButtonDropdown direction='left' isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-            <DropdownToggle caret size='sm'>
-              <i className='ion-android-menu' />
+            <DropdownToggle caret size='sm' color='info'>
+              Menu
             </DropdownToggle>
             <DropdownMenu>
+              <DropdownItem disabled><a href='#home'>Home</a></DropdownItem>
+              <DropdownItem disabled><a href='#about'>About Me</a></DropdownItem>
+              <DropdownItem disabled><a href='#skills'>Skills</a></DropdownItem>
               <DropdownItem disabled><a href='#portfolio'>Portfolio</a></DropdownItem>
+              <DropdownItem disabled><a href='#experience'>Experience</a></DropdownItem>
+              <DropdownItem disabled><a href='#education'>Education</a></DropdownItem>
             </DropdownMenu>
           </ButtonDropdown>
         </div>

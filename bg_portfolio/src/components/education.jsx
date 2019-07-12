@@ -4,6 +4,7 @@ export default class Education extends Component {
   render () {
     return (
       <section className='education-section section'>
+        <a name='education' />
         <div className='container'>
           <div className='row'>
             <div className='col-sm-4'>

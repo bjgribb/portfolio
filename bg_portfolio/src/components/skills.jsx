@@ -11,6 +11,7 @@ export default class Skills extends Component {
     return (
 
       <section className='skills-section section'>
+        <a name='skills' />
         <div className='container'>
           <div className='row'>
             <div className='col-sm-4'>
