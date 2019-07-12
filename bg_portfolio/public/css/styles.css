@@ -108,6 +108,8 @@ b.max-bold{ font-weight: 700; }
 
 .menu { text-align: right; position: fixed; z-index: 1; width: 95%; margin-left: 1rem;}
 
+.menu a:hover { color: #28023D;}
+
 /* ---------------------------------
 4. HEADER
 --------------------------------- */
