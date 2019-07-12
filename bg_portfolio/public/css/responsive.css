@@ -56,7 +56,7 @@
 	--------------------------------- */
 
 	.intro-section{ padding-top: 250px; }
-	header .heading-wrapper{  padding: 20px 15px 15px; }
+	header .heading-wrapper{  padding: 15px 20px 15px; }
 
 	/* ---------------------------------
 	5. PORFOLIO SECTION
@@ -120,7 +120,7 @@
 
 	header .info .right-area{ margin-left: 35px; }
 
-	header .heading-wrapper{  padding: 15px 10px 10px; }
+	header .heading-wrapper{  padding: 15px 20px 15px; }
 }
 
 /* Screens Resolution : 290px
