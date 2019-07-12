@@ -126,6 +126,7 @@ header .info .right-area{ margin-left: 45px; }
 
 header a:hover{ text-decoration: none; color: #FFFFFF; }
 
+/* .header-box { display: flex; justify-content: space-around; flex-wrap: row; } */
 
 /* ---------------------------------
 5. INTRO SECTION
