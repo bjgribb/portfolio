@@ -56,7 +56,7 @@
 	--------------------------------- */
 
 	.intro-section{ padding-top: 250px; }
-
+	header .heading-wrapper{  padding: 20px 15px 15px; }
 
 	/* ---------------------------------
 	5. PORFOLIO SECTION
@@ -91,7 +91,7 @@
 	--------------------------------- */
 
 	body{ font-size: 14px;  }
-	
+
 
 	/* ---------------------------------
 	5. PORFOLIO SECTION
@@ -110,18 +110,17 @@
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {
+@media only screen and (max-width: 380px) {
 	
 	/* ---------------------------------
 	3. HEADER
 	--------------------------------- */
 
-	header .heading-wrapper{  padding: 30px 20px 20px; }
-
 	header .info .icon{ font-size: 25px; }
 
 	header .info .right-area{ margin-left: 35px; }
 
+	header .heading-wrapper{  padding: 15px 10px 10px; }
 }
 
 /* Screens Resolution : 290px
