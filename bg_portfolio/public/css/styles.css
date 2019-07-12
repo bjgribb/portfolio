@@ -177,6 +177,9 @@ header a:hover{ text-decoration: none; color: #FFFFFF; }
 .portfolio-section a:hover { color: #28023D;}
 
 .portfolio-section a:visited { color: inherit }
+
+.pic_link { text-decoration: none; }
+
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
