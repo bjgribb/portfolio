@@ -1,9 +1,34 @@
 import React, { Component } from 'react'
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
 
 export default class Header extends Component {
+  constructor (props) {
+    super(props)
+    this.toggle = this.toggle.bind(this)
+    this.state = {
+      dropdownOpen: false
+    }
+  }
+
+  toggle () {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    })
+  }
+
   render () {
     return (
       <header>
+        <div className='menu container'>
+          <ButtonDropdown direction='left' isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+            <DropdownToggle caret size='sm'>
+              <i className='ion-android-menu' />
+            </DropdownToggle>
+            <DropdownMenu>
+              <DropdownItem disabled><a href='#portfolio'>Portfolio</a></DropdownItem>
+            </DropdownMenu>
+          </ButtonDropdown>
+        </div>
         <div className='container'>
           <div className='heading-wrapper'>
             <div className='row'>
