@@ -174,11 +174,12 @@ header a:hover{ text-decoration: none; color: #FFFFFF; }
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
 
+.portfolio-section a { text-decoration: underline; }
+
 .portfolio-section a:hover { color: #28023D;}
 
 .portfolio-section a:visited { color: inherit }
 
-.pic_link { text-decoration: none; }
 
 /* ---------------------------------
 6. ABOUT SECTION
