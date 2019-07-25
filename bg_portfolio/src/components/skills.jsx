@@ -3,6 +3,7 @@ import {
   CircularProgressbar,
   buildStyles
 } from 'react-circular-progressbar'
+import PieChart from 'react-minimal-pie-chart'
 import 'react-circular-progressbar/dist/styles.css'
 import VisibilitySensor from 'react-visibility-sensor'
 
@@ -27,17 +28,32 @@ export default class Skills extends Component {
                     <div className='radial-progress'>
                       <VisibilitySensor>
                         {({ isVisible }) => {
-                          const percentage = isVisible ? 85 : 0
                           return (
-                            <CircularProgressbar
-                              value={percentage}
-                              text={`85%`}
-                              styles={buildStyles({
-                                pathTransitionDuration: 1,
-                                textColor: '#FFFFFF',
-                                pathColor: '#FFA600',
-                                trailColor: '#777777'
-                              })}
+                            <PieChart
+                              data={[
+                                {
+                                  title: 'One',
+                                  value: 10,
+                                  color: '#E38627'
+                                },
+                                {
+                                  title: 'Two',
+                                  value: 15,
+                                  color: '#C13C37'
+                                },
+                                {
+                                  title: 'Three',
+                                  value: 20,
+                                  color: '#6A2135'
+                                }
+                              ]}
+                              label
+                              labelStyle={{
+                                fontSize: '5px',
+                                fontFamily: 'sans-serif',
+                                fill: '#121212'
+                              }}
+                              animate
                             />
                           )
                         }}
