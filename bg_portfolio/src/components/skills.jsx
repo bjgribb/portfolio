@@ -31,19 +31,24 @@ export default class Skills extends Component {
                           <PieChart
                             data={[
                               {
-                                title: 'One',
+                                title: 'Python',
                                 value: 10,
                                 color: '#E38627'
                               },
                               {
-                                title: 'Two',
+                                title: 'HTML & CSS',
                                 value: 15,
                                 color: '#C13C37'
                               },
                               {
-                                title: 'Three',
+                                title: 'SQL',
                                 value: 20,
                                 color: '#6A2135'
+                              },
+                              {
+                                title: 'JavaScript',
+                                value: 20,
+                                color: '#FFFFFF'
                               }
                             ]}
                             label
